@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+%:
+	dh $@ --buildsystem=cmake
+
+override_dh_auto_install:
+	dh_auto_install
+	# Building wasm.js from source requires emscripten which is RC buggy
+	$(RM) debian/binaryen/usr/share/binaryen/wasm.js
+
+override_dh_auto_test:
+	#Don't run the tests

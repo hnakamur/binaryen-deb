@@ -1,0 +1,12 @@
+# We use debhelper and dh_makeshlibs was called.
+package-must-activate-ldconfig-trigger
+
+# I think this is one of the exceptions. We could always move the library
+# to /usr/lib/binaryen later.
+shlib-without-versioned-soname
+
+# For now I believe a single binaryen binary package should suffice. In case
+# there is really a need for a separate -dev and libbinaryen package, it can
+# always be implemented later.
+package-name-doesnt-match-sonames
+

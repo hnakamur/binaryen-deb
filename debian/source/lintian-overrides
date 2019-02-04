@@ -1,0 +1,4 @@
+# These are all test files except bin/wasm.js which appears to be a prebuilt
+# version. It can be built from source when emscripten has been fixed.
+# Since emscripten is RC buggy wasm.js is not installed.
+source-is-missing

@@ -1,0 +1,35 @@
+binaryen (67-1) unstable; urgency=medium
+
+  * New upstream version 67.
+
+ -- Markus Koschany <apo@debian.org>  Mon, 04 Feb 2019 14:18:01 +0100
+
+binaryen (66-1) unstable; urgency=medium
+
+  * New upstream version 66.
+    - Fix CVE-2019-7151, CVE-2019-7152, CVE-2019-7153 and CVE-2019-7154.
+      (Closes: #920853)
+
+ -- Markus Koschany <apo@debian.org>  Tue, 29 Jan 2019 23:02:15 +0100
+
+binaryen (64-1) unstable; urgency=medium
+
+  * New upstream version 64.
+  * Drop fix-alignment.patch. Merged upstream.
+  * Switch to compat level 12.
+
+ -- Markus Koschany <apo@debian.org>  Mon, 21 Jan 2019 22:29:52 +0100
+
+binaryen (63-1) unstable; urgency=medium
+
+  * New upstream version 63.
+  * Fix FTBFS on armel, armhf, mips, mipsel, s390x, m68k, alpha and sh4.
+  * Declare compliance with Debian Policy 4.3.0.
+
+ -- Markus Koschany <apo@debian.org>  Fri, 04 Jan 2019 17:19:47 +0100
+
+binaryen (61-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #916612)
+
+ -- Markus Koschany <apo@debian.org>  Mon, 17 Dec 2018 22:33:06 +0100

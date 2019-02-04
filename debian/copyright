@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Binaryen
+Source: https://github.com/WebAssembly/binaryen
+
+Files: *
+Copyright: 2015-2019, WebAssembly Community Group participants
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2018-2019, Markus Koschany <apo@debian.org>
+License: Apache-2.0
+
+License: Apache-2.0
+ See /usr/share/common-licenses/Apache-2.0 for the complete license text of the
+ Apache-2.0 license.
