@@ -1,3 +1,9 @@
+binaryen (67-1ubuntu1ppa1~ubuntu18.04.1) bionic; urgency=medium
+
+  * Backport to Ubuntu 18.04 LTS. 
+
+ -- Hiroaki Nakamura <hnakamur@gmail.com>  Fri, 08 Feb 2019 16:57:59 +0900
+
 binaryen (67-1) unstable; urgency=medium
 
   * New upstream version 67.
